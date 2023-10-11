@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+    border: dashed black 1px;
+}
+
+.container-orange{
+    background-color: orange;
+    height: 70px;
+
+}
+
+.container-grey{
+    background-color: grey;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.container-black{
+    background-color:black;
+    height: 70px;
+}
+
+section.navigation{
+height: 100%;
+}
+
+section.navigation nav.donna-uomo-bambini,
+section.navigation div.menu{
+    width: 20%;
+    border: dashed black 1px;
+    height: 100%;
+}
+
+section.navigation div.logo{
+    width: 60%;
+    border: dashed black 1px;
+}
+
+section.navigation div.chi-siamo,
+section.navigation div.applicazioni{
+    width: 20%;
+    border: dashed white 1px;
+    height: 100%;
+}
+
+.flex-center{
+    display:flex;
+    justify-content:center;
+}
+
+.card{
+    width: calc(100% / 3 - 2rem);
+    border: dashed black 1px;
+    height: 400px;
+    margin: 1rem;
+}
+
+.flex-centered{
+    display: flex;
+    align-items: center;
+}
+
+.flex-between{
+    display: flex;
+    justify-content: space-between;
+}
