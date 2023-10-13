@@ -6,80 +6,181 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./stile/stile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
-    <header class="container-orange">
-        <section class="navigation container flex-center">
-        <nav class="donna-uomo-bambini flex-centered flex-center">
+    <header class="font-white">
+        <nav class=" nav-bar container flex-between-centered">
             <ul class="flex-center">
-                <li>Donna</li>
-                <li>Uomo</li>
-                <li>Bambini</li>
+                <li class="uomo-donna-bambini">Uomo</li>
+                <li class="uomo-donna-bambini">Donna</li>
+                <li class="uomo-donna-bambini">Bambini</li>
             </ul>
-        </nav> 
-            <div class="logo flex-center flex-centered">
-                <img  class="logo-boolean" src="./image/boolean-logo.png" alt="logo boolean">
+            <div class=" logo flex-center">
+                <img  class="logo-boolean" src="./image/boolean-logo.png">
             </div>
             <div class="menu">
-                <div class="icon flex-center flex-centered">
-                <i class="fa-regular fa-heart"></i>
-                <i class="fa-regular fa-user"></i>
-                <i class="fa-solid fa-bag-shopping"></i>
+                <div class="icon flex-center flex-between-centered">
+                    <i class="fa-regular fa-heart uomo-donna-bambini"></i>
+                    <i class="fa-regular fa-user uomo-donna-bambini"></i>
+                    <i class="fa-solid fa-bag-shopping uomo-donna-bambini"></i>
             </div>
-            </div>
-        </section>
+        </nav>
     </header>
    
    
-    <main class="container container-grey">
-        <section class="row-card flex-centered">
-            <div class="card levis-product">
-                <img  class="prima-immagine" src="./image/1.webp" alt="levis t-shirt">
-                <img class="seconda-immagine" src="./image/1b.webp" alt="levis t-shirt">
-                <span class="marca">Levi's</span>
-                <span class="articolo">relaxed fit tee unisex</span>
-                <span class="prezzo">14,99 &euro;</span>
-            </div>
+    <main class="container">
+        <section class="container row">
+            <article class="prodotti">
+                <div class="immagini">
+                    <img class="prima-immagine" src="./image/1.webp" alt="First product image">
+                    <img class="seconda-immagine" src="./image/1b.webp" alt="Second product image">
+                    <div class="product-discount">
+                        <span class="tag tag-sconto">-50%</span>
+                        <span class="tag tag-eco">Sostenibilita'</span>
+                    </div>
+                    <div class="mi-piace">
+                        <span>
+                            &heartsuit;
+                        </span>
+                    </div>
+                </div>
+                <div class="dettagli">
+                    <h3>
+                        Levi's
+                    </h3>
+                    <p>
+                        relaxed fit tee unisex
+                    </p>
+                    <p class="color-red inline">14.99 &euro;</p> 
+                    <p class="inline"><s>29,99 &euro;</s></p>
+                </div>
+            </article>
 
+            <article class="prodotti">
+                <div class="immagini">
+                    <img class="prima-immagine" src="./image/2.webp" alt="First product image">
+                    <img class="seconda-immagine" src="./image/2b.webp" alt="Second product image">
+                    <div class="product-discount">
+                        <span class="tag tag-sconto">-50%</span>
+                    </div>
+                    <div class="mi-piace">
+                        <span>
+                            &heartsuit;
+                        </span>
+                    </div>
+                </div>
+                <div class="dettagli">
+                    <h3>
+                        Guess
+                    </h3>
+                    <p>
+                        roses tee
+                    </p>
+                    <p class="color-red inline">20.99 &euro;</p>
+                    <p class="inline"><s>29,99 &euro;</s></p>
+                </div>
+            </article>
 
-            <div class="card guess-product">
-                <img class="prima-immagine" src="./image/2.webp" alt="guess t-shirt">
-                <img class="seconda-immagine" src="./image/2b.webp" alt="guess t-shirt">
-                <span class="marca">Levi's</span>
-                <span class="articolo">relaxed fit tee unisex</span>
-                <span class="prezzo">14,99 &euro;</span>
-            </div>
-            <div class="card products">
-                <img class="prima-immagine" src="./image/3.webp">
-                <img class="seconda-immagine" src="./image/3b.webp" alt="">
-                <span class="marca">Levi's</span>
-                <span class="articolo">relaxed fit tee unisex</span>
-                <span class="prezzo">14,99 &euro;</span>
-            </div>
-        </section>
+            <article class="prodotti">
+                <div class="immagini">
+                    <img class="prima-immagine" src="./image/3.webp" alt="First product image">
+                    <img class="seconda-immagine" src="./image/3b.webp" alt="Second product image">
+                    <div class="product-discount">
+                        <span class="tag tag-eco">Sostenibilita'</span>
+                    </div>
+                    <div class="mi-piace">
+                        <span>
+                            &heartsuit;
+                        </span>
+                    </div>
+                </div>
+                <div class="dettagli">
+                    <h3>
+                        come zucchero filato
+                    </h3>
+                    <p>
+                        voglia di colore pastello
+                    </p>
+                    <p class="color-red">29,99 &euro;</p>
+                </div>
+            </article>
 
-        <section class="row-card flex-centered">
-            <div class="card levis-product">
-                <img class="prima-immagine" src="./image/4.webp" alt="levis t-shirt">
-                <img class="seconda-immagine" src="./image/4b.webp" alt="levis t-shirt">
-                <span class="marca">Levi's</span>
-                <span class="articolo">relaxed fit tee unisex</span>
-                <span class="prezzo">14,99 &euro;</span>
-            </div>
-            <div class="card guess-product">
-                <img class="prima-immagine" src="./image/5.webp" alt="guess t-shirt">
-                <img class="seconda-immagine" src="./image/5b.webp" alt="guess t-shirt">
-                <span class="marca">Levi's</span>
-                <span class="articolo">relaxed fit tee unisex</span>
-                <span class="prezzo">14,99 &euro;</span>
-            </div>
-            <div class="card products">
-                <img class="prima-immagine" src="./image/6.webp">
-                <img class="seconda-immagine" src="./image/6b.webp">
-                <span class="marca">Levi's</span>
-                <span class="articolo">relaxed fit tee unisex</span>
-                <span class="prezzo">14,99 &euro;</span>
-            </div>
+            <article class="prodotti">
+                <div class="immagini">
+                    <img class="prima-immagine" src="./image/4.webp" alt="First product image">
+                    <img class="seconda-immagine" src="./image/4b.webp" alt="Second product image">
+                    <div class="product-discount">
+                        <span class="tag tag-sconto">-50%</span>
+                        <span class="tag tag-eco">Sostenibilita'</span>
+                    </div>
+                    <div class="mi-piace">
+                        <span>
+                            &heartsuit;
+                        </span>
+                    </div>
+                </div>
+                <div class="dettagli">
+                    <h3>
+                        Levi's
+                    </h3>
+                    <p>
+                        Tee unisex
+                    </p>
+                    <p class="color-red inline">14,99 &euro;</p>
+                    <p class="inline"><s>29,99 &euro;</s></p>
+                </div>
+            </article>
+
+            <article class="prodotti">
+                <div class="immagini">
+                    <img class="prima-immagine" src="./image/5.webp" alt="First product image">
+                    <img class="seconda-immagine" src="./image/5b.webp" alt="Second product image">
+                    <div class="product-discount">
+                    </div>
+                    <div class="mi-piace">
+                        <span>
+                            &heartsuit;
+                        </span>
+                    </div>
+                </div>
+                <div class="dettagli">
+                    <h3>
+                        maya deluxe
+                    </h3>
+                    <p>
+                        stripe bodice
+                    </p>
+                    <p class="color-red">99,99 &euro;</p>
+                </div>
+            </article>
+
+            <article class="prodotti">
+                <div class="immagini">
+                    <img class="prima-immagine" src="./image/6.webp" alt="First product image">
+                    <img class="seconda-immagine" src="./image/6b.webp" alt="Second product image">
+                    <div class="product-discount">
+                        <span class="tag tag-eco">Sostenibilita'</span>
+                    </div>
+                    <div class="mi-piace">
+                        <span>
+                            &heartsuit;
+                        </span>
+                    </div>
+                </div>
+                <div class="dettagli">
+                    <h3>
+                        Esprit
+                    </h3>
+                    <p>
+                        maglione - black
+                    </p>
+                    <p class="color-red">29,99 &euro;</p>
+                </div>
+            </article>
+          
+
+        
         </section>
 
     </main>
@@ -87,30 +188,24 @@
 
 
 
-    <footer class="container-black">
-        <section class=" navigation-footer container flex-between">
-            <div class="chi-siamo">
-                    <span class="society">Booleando s.r.l</span>
-                    <nav class=" flex-center flex-centered"></nav>
-                      <ul class="flex-centered">
-                        <li class="font-small">Informazioni legali</li>
-                        <li class="font-small">Informazioni sulla privacy</li>
-                        <li class="font-small">Diritto di recesso</li>
-                      </ul>
-                </nav>
-            </div>
-            <div class="applicazioni">
-                <span class="society">Trovaci anche su</span>
-                <i class="fa-brands fa-square-twitter"></i>
-                <i class="fa-brands fa-square-facebook"></i>
-                <i class="fa-brands fa-square-instagram"></i>
-                <i class="fa-brands fa-square-pinterest"></i>
-                <i class="fa-brands fa-square-youtube"></i>
-
-            </div>
-
+    <footer class="font-white">
+        <section class="container flex-between-centered">
+            <p class=" chi-siamo font-white align-center">
+                Boolando s.r.l<br>
+            informazioni legali  informativa sulla privacy
+            </p>
+            <p class=" applicazioni font-white flex-end">
+                Trovaci anche su
+            </p>
+                <div class="flex">
+                 <i class="fa-brands fa-square-twitter"></i>
+                 <i class="fa-brands fa-square-facebook"></i>
+                 <i class="fa-brands fa-square-instagram"></i>
+                 <i class="fa-brands fa-square-pinterest"></i>
+                 <i class="fa-brands fa-square-youtube"></i>
+                </div>
         </section>
-
     </footer>
+
 </body>
 </html>
